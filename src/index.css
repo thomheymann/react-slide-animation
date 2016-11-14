@@ -1,0 +1,23 @@
+.slide-animation-enter {
+    overflow: hidden;
+    height: 1px;
+    opacity: 0.01;
+}
+
+.slide-animation-enter.slide-animation-enter-active {
+    opacity: 1;
+    transition: all 0.3s ease-out;
+    transition-property: opacity min-height, max-height, height;
+}
+
+.slide-animation-leave {
+    overflow: hidden;
+    opacity: 1;
+    transition: all 0.3s ease-out;
+    transition-property: opacity min-height, max-height, height;
+}
+
+.slide-animation-leave.slide-animation-leave-active {
+    height: 1px;
+    opacity: 0.01;
+}
