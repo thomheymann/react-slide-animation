@@ -15,9 +15,10 @@
   "author": "Thomas Heymann <thom@totheskies.net> (http://totheskies.net/)",
   "license": "ISC",
   "peerDependencies": {
-    "react": "^0.14.0 || ^15.0.0",
+    "react": "^0.14.9 || ^15.0.0",
+    "prop-types": "^15.0.0",
     "react-delegate-transition-group": "^0.14.1",
-    "react-dom": "^0.14.0 || ^15.0.0"
+    "react-dom": "^0.14.9 || ^15.0.0"
   },
   "devDependencies": {
     "babel-cli": "^6.18.0",
