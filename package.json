@@ -1,6 +1,6 @@
 {
   "name": "react-slide-animation",
-  "version": "0.14.0",
+  "version": "15.5.0",
   "description": "Slide animation for React",
   "main": "./lib/index.js",
   "style": "./lib/index.css",
@@ -14,10 +14,17 @@
   },
   "author": "Thomas Heymann <thom@totheskies.net> (http://totheskies.net/)",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cyberthom/react-slide-animation"
+  },
   "peerDependencies": {
-    "react": "^0.14.0 || ^15.0.0",
-    "react-delegate-transition-group": "^0.14.1",
-    "react-dom": "^0.14.0 || ^15.0.0"
+    "react": "^0.14.9 || ^15.3.0",
+    "react-dom": "^0.14.9 || ^15.3.0"
+  },
+  "dependencies": {
+    "prop-types": "^15.5.0",
+    "react-delegate-transition-group": "^15.5.0"
   },
   "devDependencies": {
     "babel-cli": "^6.18.0",

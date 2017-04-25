@@ -1,6 +1,7 @@
 import DelegateTransitionGroup from 'react-delegate-transition-group';
+import PropTypes from 'prop-types';
 import { addEndEventListener, removeEndEventListener } from 'react/lib/ReactTransitionEvents';
-import { Component, PropTypes, createElement } from 'react';
+import { Component, createElement } from 'react';
 import { findDOMNode } from 'react-dom';
 
 const TICK = 17;
@@ -8,10 +9,7 @@ const TICK = 17;
 class SlideAnimation extends Component {
 
     static propTypes = {
-        children: PropTypes.oneOfType([
-            PropTypes.arrayOf(PropTypes.element),
-            PropTypes.element,
-        ]),
+        children: PropTypes.node,
         component: PropTypes.string,
         animationName: PropTypes.string
     };

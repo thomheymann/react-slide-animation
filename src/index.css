@@ -7,14 +7,14 @@
 .slide-animation-enter.slide-animation-enter-active {
     opacity: 1;
     transition: all 0.3s ease-out;
-    transition-property: opacity min-height, max-height, height;
+    transition-property: opacity, height;
 }
 
 .slide-animation-leave {
     overflow: hidden;
     opacity: 1;
     transition: all 0.3s ease-out;
-    transition-property: opacity min-height, max-height, height;
+    transition-property: opacity, height;
 }
 
 .slide-animation-leave.slide-animation-leave-active {
